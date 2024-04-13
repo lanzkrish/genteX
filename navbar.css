@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=M+PLUS+1+Code:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    /* border-bottom: 1px solid black; */
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.navbar .centermenu ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+.navbar .rightmenu ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navbar .centermenu ul li{
+    margin-left: 10px;
+}
+.navbar .rightmenu ul li{
+    padding-left: 10px;
+}
+ .navbar .centermenu ul li a{
+    color: aliceblue;
+    margin-left: 10px;
+ }
+ .navbar .centermenu ul li a:hover{
+    color: rgb(143, 255, 145);
+    font-size: 17px;
+ }
+.navbar .leftLogo {
+    /* font-family: M+PLUS+1+Code, sans-serif; */
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    /* font-weight: 400; */
+}

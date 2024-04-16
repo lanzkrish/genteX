@@ -6,7 +6,8 @@
     padding: 0px;
 }
 body .hometop{
-    background-image: linear-gradient(to bottom, #1d1d1d , #fffbe500 ) ,url(./homebg1.jpg);
+    /* background-image: linear-gradient(to bottom, #1d1d1d , #fffbe500 ) ,url(./homebg1.jpg); */
+    background-image: linear-gradient(to bottom, #4b9120 , #fffbe5 ) ,url(./homebg1.jpg);
     /* background-image: linear-gradient(to top, transparent , rgba(0, 0, 0, 0.613)), url(./homebg1.jpg); */
     background-position: top;
     background-repeat: no-repeat;
@@ -25,9 +26,24 @@ body .hometop{
     text-transform: uppercase;
 
 }
+
+.mainbodysection .leftside .mainbody p{
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    right: 430px;
+    top: 270px; 
+    text-transform: uppercase;
+
+}
 .mainbodysection .leftside .mainbody h1 span{
     color: rgb(155, 233, 107);
-    font-weight: 400;
+
+    font-weight: 700;
+    text-shadow: 1px 5px 3px #171616;
+    
     
 
 }
